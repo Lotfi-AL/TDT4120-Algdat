@@ -21,7 +21,7 @@
         i=j-1;
         while i>0 && key<A[i]
             A[i+1] = A[i]
-            i-=1;
+            i-=1
         end
     A[i+1] = key
     end
