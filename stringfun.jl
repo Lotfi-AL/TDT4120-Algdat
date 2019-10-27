@@ -9,5 +9,3 @@ function fisk(s1,s2)
     return k
 end
 
-
-println(fisk("heid","heia"))
