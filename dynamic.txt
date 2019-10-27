@@ -1,0 +1,70 @@
+function lislength(s)
+    mls = zeros(Int, size(s,1))
+    mls[1] = 1
+    for i = 2:length(s)
+        mls[i] = 1
+        for j = 1:i-1
+            if (s[i] > s[i-j] && mls[i] <= mls[i-j])
+                mls[i] = mls[i-j] + 1+
+            end
+            
+        end
+    end
+    println(mls)
+    return maximum(mls) # Returnerer det største tallet i listen
+end
+
+function lis(s, mls)
+    retList = zeros(Int, maximum(mls))
+    top = maximum(mls)
+    for i in length(mls):-1:1
+        if mls[i] == top
+            retList[top] = s[i]
+            top -= 1
+        end
+    end
+    return retList
+end
+
+function cumulative(weights)
+    rows, cols = size(weights)
+    for i in 2:rows
+        for j in 1:cols
+            best = Inf
+            for k in -1:1
+                if (j==1 && k == -1)
+                    k += 1
+                end
+                if (j == cols && k == 1)
+                    break
+                end
+                if weights[i-1,j+k] < best
+                    best = weights[i-1,j+k]
+                end
+            end
+            weights[i,j] = weights[i,j] + best
+        end
+    end
+
+    return weights
+end
+
+
+function backtrack(pathweights)
+    rows, cols = size(pathweights)
+    low = argmin(pathweights[rows,1:cols])
+    liste = []
+    push!(liste, (rows,low))
+    for i in rows-1:-1:1
+        if (low == 1)
+            low = low + argmin(pathweights[i,low:low+1]) - 1
+        elseif (low == cols)
+            low = low + argmin(pathweights[i,low-1:low]) - 2
+        else
+            println(pathweights[i,low-1:low+1])
+            low = low + argmin(pathweights[i,low-1:low+1]) - 2
+        end
+        push!(liste, (i,low))
+    end
+    return liste
+end
