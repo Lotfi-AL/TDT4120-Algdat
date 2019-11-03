@@ -1,8 +1,8 @@
 # **Traversering av grafer**
 
-## Representasjon av grafer
+# Representasjon av grafer
 
-   #### Nabomatrise
+   ## Nabomatrise
     Mer plass
     Må være kvadratisk i størrelse altså 6x6 etc.
 ![](nabomatrise1.png)
@@ -11,7 +11,7 @@
 
 ![](nabomatrise2.png)
 
-#### Naboliste
+## Naboliste
     mindre plass ofte.
 **Nabolister: liste eller(tabell) med ut-naboer for hver node**
 ![](naboliste1.png)
@@ -31,7 +31,7 @@
 
 #### Traversering generelt - vi besøker noder, oppdager noder langs kanter og vedlikelholder en huskeliste på noder vi har sett men ikke har besøkt enda. 
 
-## Bredde først søk
+# Bredde først søk
 
 **BFS: Naboer stille seg i kø. (vanlig kø, fifo ( first in first out))**
 
@@ -42,7 +42,80 @@ Sprer seg utover lagvis.
     så gjør vi det
     deretter besøk node og besøk node 3.
     så kommer vi inn i node 2 og der ser v iat den er koblet til node3, men vi skriver ikke node3 opp igjen siden den allerede er der. 
-## Dybde først søk
 
-## Topologisk sortering
+**Hver node har en parent eller predeccessor, forgjenger**
+- Det er den noden vi kom fra da vi kom til noden. 
+
+Forgjengerne utgjør traverseringstreet
+
+Traverseringstreet aangir hvordan vi har oppdaga alle nodene.
+
+### **Så lenge vi bruker en fifo kø (dvs.., BFS) så finner vi korteste vei; Ellers risikerer vi å finne noder via omveier.**
+
+![](bfs2.png)
+
+    initialisering
+
+![](bfs3.png)
+
+    Løkken som kjøres.
+    Felles for alle traversering er at vi kjøres så lenge Q ikke er tom.
+![](bfs4.png)
+
+    etter at init er kjørt.
+![](bfs5.png)
+    
+    etter at bfs er ferdig.
+
+##Oppgave
+![](oppgave2.png)
+
+![](oppgavelosning2.png)
+
+
+# Dybde først søk
+
+**Som BFS, men med LIFO kø**
+
+**Enklere å implementere rekursivt**
+
+**LIFO køen blir da i praksis kallstakken**
+
+    Kallstakken inneholder de lokalevariablene, returadresse og parametere
+
+Besøk oppdagede noder umidelbart
+
+![](DFS1.png)
+    
+    initialisering
+**DFS-VISIT ER DEN faktiske traverseringen**
+
+![](dfs2.png)
+![](df3.png)
+
+#### Kantkvalifisering
+- Tre-kanter
+    - Kanter i dybde-først-skogen
+- Bakoverkanter
+    - Kanter til en forgjenger i DF-skogen
+- Foroverkanter
+    - kanter utenfor DF-skogen til en etterkommer i DF-skogen
+- Krysskanter
+    - Alle andre kanter
+- Møter vi en hvit node 
+  - Tre-kant
+- Møter på en grå node
+  - bakoverkant
+- Møter en svart node
+  - forover eller krysskant
+  - om det er forover eller kryss kjem an på start og slutt tidspunktan
+
+**Tre kanter utgjør dybde først treet**
+
+## **Parentesteoremet**
+
+
+
+
+# Topologisk sortering
 
