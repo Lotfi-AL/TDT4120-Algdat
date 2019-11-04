@@ -31,6 +31,7 @@
 
 #### Traversering generelt - vi besøker noder, oppdager noder langs kanter og vedlikelholder en huskeliste på noder vi har sett men ikke har besøkt enda. 
 
+![](kk.png)
 # Bredde først søk
 
 **BFS: Naboer stille seg i kø. (vanlig kø, fifo ( first in first out))**
@@ -67,7 +68,18 @@ Traverseringstreet aangir hvordan vi har oppdaga alle nodene.
     
     etter at bfs er ferdig.
 
-##Oppgave
+````python
+def PRINT_PATH(G,s,v):
+    if v == s:
+    print(s)
+    elif pi[v] == null:
+        print("no path from"+s+"to "+v+"exists")
+    else
+        PRINT_PATH(G,s,pi[v])
+        print(v)
+
+````
+## Oppgave
 ![](oppgave2.png)
 
 ![](oppgavelosning2.png)
@@ -112,10 +124,48 @@ Besøk oppdagede noder umidelbart
 
 **Tre kanter utgjør dybde først treet**
 
+
+
 ## **Parentesteoremet**
+**Stigende discover tid er ikke trygt**
 
-
-
+**Synkende finish-tid er trygt**
+- dvs det gir en topologisk sortering
+- Theorem 22.7(s 543)
+  
+![](teorem22.png)
 
 # Topologisk sortering
+    - Gir nodene en rekkefølge
+    - foreldre
+    - foreldre før barn
+    - Evt.: Alle kommer etter avhengigheter
+    - Det er egentlig det vi gjør med delproblemgrafen i     dynamiskprogrammering
+    - A topological sort of a dag G = (V,E) is a linear ordering of all its vertices such that if G contains an edge (u,v), then u appears before v in the ordering. 
+    - A directed edge (u,v) indicates that garment u must be donned before garment v. 
+    - A topological sort therefore gives us an order for getting dressed.
+  ![](topog.png)
 
+**Topological sort(g)**
+1. call Dfs(G) to compute finishing times v.f for each vertex v
+2. as each vertex is finished insert it into the front of a linked list
+3. return the linked list of vertices.
+- we can perform a topological sort in theta(V+E) since dfs takes v+e and insertion is constant.
+  
+
+![](topos.png)
+
+- I Dynamisk programmering med memoisering: Vi utfører implisitt DFS på delproblemene
+- Vi får automatisk en topologisk sortering: Problemer løses etter delproblemer.
+- Det samme som å sortere etter synkende finish tid
+
+
+![](oppgave3.png)
+
+
+# Generell gravtraversering
+    BFS kan tilpasses til å oppføre seg omtrent lik DFS ved å bytte ut first in first out køen med en LIFO kø eller stack. Vi mister da tidsmerkningen men rekkefølgen noder farges grå og svarte likt. 
+    DFS slik beskrevet i boka har ingen start node. 
+    Det at vi bruker en fifo kø er det som lar bfs finne de korteste stiene til alle noder siden vi utforsker grafen lagvis, men vi kan egentlig velge vilkårlige noder fra Q i hver iterasjon, og vi vil
+    likevel traversere hele den delen av grafen vi kan nå fra startnoden.
+Les mer fra pensumhefte [her](../pensumhefte.md#Appendiks-E)
