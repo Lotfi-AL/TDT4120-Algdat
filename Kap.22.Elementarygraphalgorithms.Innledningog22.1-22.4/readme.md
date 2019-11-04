@@ -1,19 +1,19 @@
 ### Forelesning 8 -video 15,16, litt av video 17
--   [x] Video 15 
--   [x] Video 16
--   [ ] Video 17 
+- [x] Video 15 
+- [x] Video 16
+- [x] Video 17 
   
 ### _Forståelse nivå L-Lav M- Medium H- Høy_
 
-### _Sist gang jeg leste på det --> 02.11_
+### _Sist gang jeg leste på det --> 04.11_
 
 # **Traversering av grafer**
 
 # Pensum
 
-- [ ] Kap. 22. Elementary graph algorithms: Innledning og 22.1–22.4
+- [x] Kap. 22. Elementary graph algorithms: Innledning og 22.1–22.4
 
-- [ ] Appendisk E i dette heftet
+- [x] Appendisk E i dette heftet
 
 # **Læringsmål:**
 
@@ -21,11 +21,11 @@
 
 - [x] Forstå BFS, også for å finne korteste vei uten vekter
 
-- [ ] Forstå DFS og parentesteoremet
+- [x] Forstå DFS og parentesteoremet
 
 - [x] Forstå hvordan DFS klassifiserer kanter
 
-- [ ] Forstå Topological-Sort
+- [x] Forstå Topological-Sort
 
 - [x] Forstå hvordan DFS kan implementeres med
 en stakk
