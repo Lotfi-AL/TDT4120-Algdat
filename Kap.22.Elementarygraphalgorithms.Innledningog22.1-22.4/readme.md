@@ -5,7 +5,8 @@
   
 ### _Forståelse nivå L-Lav M- Medium H- Høy_
 
-### _Sist gang jeg leste på det --> 04.11_
+### _Dato skrevet ferdig --> **03.11**_
+### _Sist gang jeg leste på det --> **05.11**_
 
 # **Traversering av grafer**
 
@@ -32,6 +33,6 @@ en stakk
 
 - [x] Forstå hva traverseringstrær (som bredde-først- og dybde-først-trær) er
 
-- [ ] Forstå traversering med vilkårlig prioritetskø 
+- [x] Forstå traversering med vilkårlig prioritetskø 
 
 
