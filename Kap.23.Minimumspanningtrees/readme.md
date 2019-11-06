@@ -6,7 +6,7 @@
 ### _Forståelse nivå L-Lav M- Medium H- Høy_
 
 ### _Dato jeg skrev det først --> **04.11**_
-### _Sist gang jeg leste på det --> **05.11**_
+### _Sist gang jeg leste på det --> **06.11**_
 
 # **Minimale spenntrær**
 

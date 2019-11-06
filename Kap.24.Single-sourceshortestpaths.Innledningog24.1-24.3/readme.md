@@ -1,12 +1,13 @@
-### Forelesning 10 -video 19,video 20
+### Forelesning 10 -video 19,video 20, video 21 (litt)
 
--   [ ] Video 19
--   [ ] Video 20
+-   [x] Video 19
+-   [x] Video 20
+-   [ ] litt av video 21
 
 ### _Forståelse nivå L-Lav M- Medium H- Høy_
 
 ### _Første gang jeg skrev det --> **05.11**_
-### _Sist gang jeg leste på det --> **05.11**_
+### _Sist gang jeg leste på det --> **06.11**_
 
 # **Korteste vei fra en til alle**
 
@@ -16,27 +17,27 @@ har ulik lengde? Det generelle problemet er uløst, men vi kan løse problemet m
 gradvis bedre kjøretid for grafer (1) uten negative sykler; (2) uten negative kanter;
 og (3) uten sykler. Og vi bruker samme prinsipp for alle tre!
 
-- [ ] Kap. 24. Single-source shortest paths: Innledning og 24.1–24.
+- [x] Kap. 24. Single-source shortest paths: Innledning og 24.1–24.
   
 
 # **Læringsmål:**
 - [x] Forstå ulike varianter av korteste-vei - eller korteste-sti -problemet
 ( Single-source , single-destination , single-pair , all-pairs )
 - [x] Forstå strukturen til korteste-vei -problemet
-- [ ] Forstå at negative sykler gir mening for korteste enkle vei ( simple path )
-- [ ] Forstå at korteste enkle vei kan løses vha. lengste enkle vei og omvendt
-- [ ] Forstå hvordan man kan representere et korteste-vei-tre
+- [x] Forstå at negative sykler gir mening for korteste enkle vei ( simple path )
+- [x] Forstå at korteste enkle vei kan løses vha. lengste enkle vei og omvendt
+- [x] Forstå hvordan man kan representere et korteste-vei-tre
 
 - [x] Forstå _kant-slakking_ ( _edge relaxation_ ) og Relax ! 
 
-- [ ] Forstå ulike egenskaper ved korteste veier og slakking
+- [x] Forstå ulike egenskaper ved korteste veier og slakking
 ( Triangle inequality , upper-bound property , no-path property , convergence property , path-
 relaxation property , predecessor-subgraph property )
-- [ ] Forstå Bellman-Ford
-- [ ] Forstå DAG-Shortest-Path
+- [x] Forstå Bellman-Ford
+- [x] Forstå DAG-Shortest-Path
 
-- [ ] Forstå kobling mellom DAG-Shortest-Path og dynamiskprogrammering !
-- [ ] Forstå Dijkstra
+- [x] Forstå kobling mellom DAG-Shortest-Path og dynamiskprogrammering !
+- [x] Forstå Dijkstra
 
 
 ```

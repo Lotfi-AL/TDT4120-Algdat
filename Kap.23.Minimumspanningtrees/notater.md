@@ -4,9 +4,9 @@
 
     En disjunkt mengde har en collection av disjunkte dynamiske set. Hvert set er identifsert av en representant som er et medlem av settet. Hvis vi spør to ganger om representant får vi samme.
 
-x|![](images/d.png)
+![](images/d.png)
 
-x|![](images/e.png)
+![](images/e.png)
 
 **Har to heuristikk. hver for seg sier det ikke mye men hvis vi bruker begge samtidig får vi et veldig klar øvre grense.**
 
