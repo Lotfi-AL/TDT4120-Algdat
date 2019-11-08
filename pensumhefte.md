@@ -1195,7 +1195,7 @@ såkalt _tail call_ – så vil enkelte språk kunne gjøre denne transformasjon
 av såkalt _tail-call elimination_ eller _tail-call optimization_.
 
 
-## Appendiks D
+## Appendiks-D
 
 # Ryggsekkproblemet
 
