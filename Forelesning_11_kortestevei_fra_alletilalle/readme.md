@@ -1,12 +1,12 @@
 ## Forelesning 11 - video 21,22 
 
--   [ ] Video 21
+-   [x] Video 21
 -   [ ] Video 22
 
 ### _Forståelse nivå L-Lav M- Medium H- Høy_
 
-### _Første gang jeg skrev det --> **0?.11**_
-### _Sist gang jeg leste på det --> **0?.11**_
+### _Første gang jeg skrev det --> **17.11**_
+### _Sist gang jeg leste på det --> **17.11**_
 
 # **Korteste vei fra alle til alle**
 
@@ -21,14 +21,14 @@ programmering med dekomponeringen «Skal vi innom k eller ikke?»
 
 # **Læringsmål:**
 
-- [ ] Forstå _forgjengerstrukturen_ for _alle-til-alle_ -varianten av korteste vei-problemet
+- [x] Forstå _forgjengerstrukturen_ for _alle-til-alle_ -varianten av korteste vei-problemet
 (Print-All-Pairs-Shortest-Path)
 
 - [ ] Forstå Floyd-Warshall
 
 - [ ] Forstå Transitive-Closure
 
-- [ ] Forstå Johnson
+- [x] Forstå Johnson
 
 *Merk: Noe stoff fra forelesning 12 vil kanskje dekkes her.*
 
