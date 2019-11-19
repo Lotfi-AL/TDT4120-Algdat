@@ -1,12 +1,12 @@
 ## Forelesning 11 - video 21,22 
 
 -   [x] Video 21
--   [ ] Video 22
+-   [x] Video 22
 
 ### _Forståelse nivå L-Lav M- Medium H- Høy_
 
-### _Første gang jeg skrev det --> **17.11**_
-### _Sist gang jeg leste på det --> **17.11**_
+### _Første gang jeg skrev det --> **18.11**_
+### _Sist gang jeg leste på det --> **18.11**_
 
 # **Korteste vei fra alle til alle**
 
@@ -22,7 +22,7 @@ programmering med dekomponeringen «Skal vi innom k eller ikke?»
 # **Læringsmål:**
 
 - [x] Forstå _forgjengerstrukturen_ for _alle-til-alle_ -varianten av korteste vei-problemet
-(Print-All-Pairs-Shortest-Path)
+(Print-All-Pairs-Shortest-Path) 
 
 - [ ] Forstå Floyd-Warshall
 

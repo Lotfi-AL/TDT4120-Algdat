@@ -63,8 +63,66 @@ Vel det vanskelige er at lgc så jeg aldri lmao. Mattet shittet her hadde jeg ik
 
 
 # Transitiv lukking
+Hvis det finnes en sti fra u til v vil vi legge inn en kant fra u til v. så den går direkte. den grafen vi endre opp med viser om det finnes stier i den opprinnelige grafen. Vi vil ha en ny graf med samme node mengde, men en ny kant mengde hvor hvis det finnes en sti fra i til j i den opprinnelige grafen skal vi legge til en kant i den nye grafen.
+
+
+![](images/20.png)
+Vi trenger ikke å fjerne noe, vi skal bare legge til. 
+![](images/32.png)
+![](images/33.png)
+![](images/34.png)
+![](images/35.png)
+
+Vi bygger oss en nabo matrise fra grafen rett og slett.
+![](images/36.png)
+
+Vi kunne like gjerne antatt at vi fikk in nen nabo matrise som parameter
+
+![](images/37.png)
+
+![](images/38.png)
+
+Det du gjør er at du har den matrisen da. Du vet altså alt fra før. Det du nå må sjekke er om 
+siden vi vet hva den nye kanten er. det er en kant fra u til v. hvis vi har x,u og y,v så vet vi av transitivity at vi har x,y siden vi også har u,v. x,u u,v v,y --> x,y. 
+Så vi går gjennom to ganger og får n^2. engang for x engang for y. så vi sjekker alle x, med alle y?
+
+![](images/398.png)
 
 
 
 # Floyd-warshall
+
+Vi bytter ut og med + og eller med minus. Så gjør vi akkurat det samme.
+
+Fra hver node til alle andre? 
+![](images/40.png)
+
+![](images/41.png)
+
+hvis vi ikke går innom k går vi innom 1 til k-1. Hvis vi går innom k så vil stien 
+![](images/42.png)
+
+Sist ville vi bare vite om det fantes en vei, det finnes enten en vei direkte eller en vei vi kan binde sammen og vi vil ha den korteste av dem. IStedenfor å bare ta eller tar vi minimum av dem to fordi det er dem to mulighetene vi har. 
+![](images/43.png)
+Vi tar minimum av de to alternativene og sammenligningen er pluss istedenfor logisk or. 
+![](images/44.png)
+
+Grunntillfelle blir vektmatrise istedenfor kantmatrise. 
+
+![](images/45.png)
+Forgjkengermatrise kommer i tillegg nå. en sti fra en node til seg selv har ingen forgjenger. det samme gjør vi hvis vekta er uendelig. Hvis det går en kant direkte sier vi at i er forgjengeren til j i stien i til j. Når vi ikke snakker om grunntilfelle er det en annen forgjengermatrise.
+
+Hvis direkte stien erm inst like bra som å gå via k så bruker vi bare den samme forgjengeren vi fant. Da beholder vi den stien, lengpden og forgjengeren.
+
+Det eneste som skiller seg er hvis vi finner en snarvei via k. går frem til k så fra k. så må vi bytte ut forgjengeren. 
+![](images/46.png)
+
+Vitkig aspekt ved algoritmen. Forgjenger hvis vi finner bedre vei gjennom k. da limer vi sammen fra i til k og k til j. Og tar forgjenger til k til j. 
+
+![](images/47.png)
+
+![](images/48.png)
+![](images/49.png)
+
+
 
