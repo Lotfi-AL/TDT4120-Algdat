@@ -1,4 +1,4 @@
-### Forelesning 12 - video 23,24
+### Forelesning 4 - video 23,24
 
 -   [ ] Video 23
 -   [ ] Video 24
@@ -8,30 +8,34 @@
 ### _Første gang jeg skrev det --> **.11**_
 ### _Sist gang jeg leste på det --> **.11**_
 
-# **Maksimal flyt**
+# **Rangering i linærtid**
 
 # Pensum
-Et stort skritt i retning av generell lineær optimering (såkalt lineær programmering). Her ser vi på to tilsynelatende forskjellige problemer, som viser seg å være
-duale av hverandre, noe som hjelper oss med å finne en løsning
+Vi kan ofte få bedre løsninger ved å styrke kravene til input eller ved å svekke
+kravene til output. Sortering basert på sammenligninger (x 6 y) er et klassisk
+eksempel: I verste tilfelle må vi bruke lg n! sammenligninger,men om vi antar mer
+om elementene eller bare sorterer noen av dem så kan vi gjøre det bedre.
 
 
-- [ ] Kap. 26. Maximum flow: Innledning og 26.1–26.3
+
+- [ ] Kap. 8. Sorting in linear timeKap. 8. Sorting in linear time
+- [ ] Kap. 9. Medians and order statistics
 
 
 
 
 # **Læringsmål:**
-- [ ] [L1] Kunne definere flytnett, flyt og maks-flyt-problemet
-- [ ] [L2] Kunne håndtere antiparallelle kanter og flere kilder og sluk
-- [ ] ! [L3] Kunne definere restnettet til et flytnett med en gitt flyt
-- [ ] [L4] Forstå hvordan man kan oppheve (cancel) flyt
-- [ ] [L5] Forstå hva en forøkende sti (augmenting path) er
-- [ ] [L6] Forstå hva snitt, snitt-kapasitet og minimalt snitt er
-- [ ] ! [L7] Forstå maks-flyt/min-snitt-teoremet
-- [ ] [L8] Forstå Ford-Fulkerson-Method og Ford-Fulkerson
-- [ ] [L9] Vite at Ford-Fulkerson med BFS kalles Edmonds-Karp-algoritmen
-- [ ] [L10] Forstå hvordan maks-flyt kan finne en maksimum bipartitt matching
-- [ ] ! [L11] Forstå heltallsteoremet (integrality theorem)
+- [ ] ! [D1] Forstå hvorfor sammenligningsbasert sortering har en worst-case på Ω(n lg n
+- [ ] [D2] Vite hva en stabil sorteringsalgoritme er
+- [ ]  Forstå Counting-Sort, og hvorfor den er stabil
+- [ ] Forstå Radix-Sort, og hvorfor den trenger en stabil subrutine
+- [ ] ] Forstå Bucket-Sort
+- [ ] Forstå Randomized-Select 
+- [ ] [D7] Kjenne til Select
+
+Merk: Det kreves ikke grundig forståelse av virkemåten til Select.
+
+  
 Merk: Noe av stoffet vil kanskje dekkes i forelesning 11.
 
 

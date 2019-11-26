@@ -66,6 +66,7 @@ Trenger bare divide og combine, resten er fast.
 Dynamisk programmering er **NYTTIG** når vi har overlappende delproblemer.
 Dynamisk programmering er **KORREKT** når vi ha optimal substruktur.
 
+![](images/12390.png)
 
 # Memoisering
 

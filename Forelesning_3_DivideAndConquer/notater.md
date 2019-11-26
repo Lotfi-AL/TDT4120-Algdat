@@ -23,7 +23,7 @@ Du vil bare finne en T(1) finne det du må sette x til å være for å få 1 for
 
 ![](images/13.png)
 
-på slutten kan man se på summen på et par måter. Enten som n-1 * n +1 (1 er casen t(n) =1) 
+på slutten kan man se på summen på et par måter. Enten som n-1 *1 (1 er casen t(n) =1) 
 elelr ta summen.
 ![](images/14.png)
 
@@ -101,6 +101,7 @@ WORSTCASE QUICKSORT
 
 # Masterteoremet
 
+![](images/900.png)
 ![](images/37.png)
 ![](images/38.png)
 ![](images/39.png)

@@ -1,0 +1,60 @@
+oppgave 1.
+
+1 er minste. n-1 er største.
+
+oppgave 2.
+n-1 er minste og n-1 er største.
+
+
+oppgave 3.
+pi ij representerer forgjengeren til j. på en av de korteste stiene fra i til j.
+
+oppgave 4.
+
+et snitt i et flytt nett 
+
+en partisjoneren (S,T) av V der s is in S og t is in T
+
+oppgave 5.
+
+et nodedekke for en graf G=(V,E)
+
+er et set av vertices slik at for hver edge i E finnes e = (u,v) finnes minst en av de verticen i mengden. 
+
+
+En mengde V' ⊆ V slik at om (u, v) ∈ E så er minst én av u og v i V0
+
+oppgave 6.
+
+det er gjennomsnittet over n operasjoner.
+
+oppgave 7.
+
+må stille minst lgn! spørsmål.
+
+så omega(nlgn)
+
+oppgave 8.
+theta(n*m)
+
+oppgave 9.
+
+
+oppgave 10
+
+hun kan få tree edge. back edge og cross edge.
+
+oppgave 11
+binærsøk. først venstre siden så høyre siden helt til du finner det minste elementet.
+
+kjøretid blir theta(lgn)
+
+oppgave 12
+man skal sette A[j] på rett sted i sortert rekkefølge. kjøretiden er O(j)
+
+oppgave 13.
+
+for hver edge kjører man decrease key 1 gang.
+for hver edge kjører man extract-min.
+theta(V^3*E+V^2*V) = 
+

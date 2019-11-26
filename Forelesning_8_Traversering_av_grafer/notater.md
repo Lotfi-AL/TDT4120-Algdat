@@ -184,3 +184,5 @@ initialisering
     likevel traversere hele den delen av grafen vi kan nå fra startnoden.
 
 Les mer fra pensumhefte [her](../pensumhefte.md#Appendiks-E)
+
+

@@ -203,3 +203,4 @@ Dijkastras algoritme er akkurat som prims algoritme bare at vi bruker avstandses
 
 ![](images/68.png)
 
+O(ElgV)

@@ -37,19 +37,19 @@ i praksis, og hva vi vinner på å bruke dem i algoritmene våre.
 )
 
   
-- [x] Forstå hvordan pekere og objekter kan implementeres
+- [ ] Forstå hvordan pekere og objekter kan implementeres
   
-- [x]  Forstå hvordan direkte adressering og hashtabeller fungerer
+- [ ]  ! Forstå hvordan direkte adressering og hashtabeller fungerer
 (Hash-Insert, Hash-Search)
 
 - [x]  Forstå konfliktløsing ved kjeding (chaining)
 (Chained-Hash-Insert, Chained-Hash-Search, Chained-Hash-Delete)
   
-- [x]  Kjenne til grunnleggende hashfunksjoner
+- [ ]  Kjenne til grunnleggende hashfunksjoner
 
-- [x]   Vite at man for statiske datasett kan ha worst-case O(1) for søk
+- [ ]   Vite at man for statiske datasett kan ha worst-case O(1) for søk
   
-- [x]    Kunne definere amortisert analyse
+- [ ]    Kunne definere amortisert analyse
   
 - [x]    Forstå hvordan dynamiske tabeller fungerer
 (Table-Insert)

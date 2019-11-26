@@ -3,6 +3,8 @@
 # Hva og hvorfor?
 
 # Asympotisk annotasjon
+![](images/2500.png)
+
 
 ![](images/1.png)
 ![](images/2.png)
@@ -102,7 +104,8 @@ VI vil vise at noe er sant etter iterasjonen av en løkke når vi antar at det e
 ![](images/60.png)
 
 # Eksempel sum
-
+![](images/12309123.png)
 # Eksempel insertion sort
 
 
+![](images/2123.png)

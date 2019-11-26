@@ -1,0 +1,31 @@
+oppgave 1.
+Alle problemer i npc kan reduseres til et problem i np. 
+
+NP- komplett betyr at komplett er at det er på maks
+av redusibiltet.
+vil si at alle problemer i NP kan reduseres til npc
+
+oppgave 2
+theta(n)
+
+oppgave3
+heltallsteoremet sier at hvis kant vektene er heltall vil ford fulkerson gi et heltall som flyt og flyt over alle kantene er heltall.
+
+oppgave4
+Vi må også vise at problemet har optimal substruktur.
+
+greedy choice property viser at vi kan gjøre det mest optimale valget her og nå uten å skyte oss i foten. Men vi må også vise at et optimalt valg nå er en del av den optimale løsningen som er optimal substruktur.
+
+oppgave 5
+Da er den resulterende grafen et minimalt spanning tree for G.
+
+oppgave 6
+BFS med fifo kø går lagvis nedover. 
+Vi kan være sikker på at vi besøker alle nodene fordi bfs besøker alle nabo noder til nodene i køen. Den går gjennom hele køen og legger til noder når den finner nye. Vi vil til slutt ha besøkt alle. så lenge den er sammenhengde.
+
+oppgave 7
+
+relax
+
+
+

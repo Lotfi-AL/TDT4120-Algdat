@@ -24,17 +24,17 @@ Vi trenger bare se på siste trinn , og kan anta at resten er på plass.
 
 # **Læringsmål:**
 
-- [x] Forstå bokas pseudokode -konvensjoner
-- [x] Kjenne egenskapene til random-access machine -modellen (RAM)
-- [x] Kunne definere problem , instans og problemstørrelse
+- [x] A1 Forstå bokas pseudokode -konvensjoner
+- [ ] Kjenne egenskapene til random-access machine -modellen (RAM)
+- [ ] Kunne definere problem , instans og problemstørrelse
 
-- [x] Kunne definere _asymptotisk notasjon_ ,O,Ω,Θ, _o_ og _ω_.
+- [ ] ! Kunne definere _asymptotisk notasjon_ ,O,Ω,Θ, _o_ og _ω_.
 
-- [x] Kunne definere _best-case_ , _average-case_ og _worst-case_
+- [ ] ! Kunne definere _best-case_ , _average-case_ og _worst-case_
 
-- [x] Forstå _løkkeinvarianter_ og _induksjon_
+- [ ] ! Forstå _løkkeinvarianter_ og _induksjon_
 
-- [x] Forstå _rekursiv dekomponering_ og _induksjon over delproblemer_
+- [ ] ! Forstå _rekursiv dekomponering_ og _induksjon over delproblemer_
 
 
 - [ ] Forstå Insertion-Sort

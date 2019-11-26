@@ -22,7 +22,7 @@ insert() min() extract-min() decrease-key()
 # Trær
 
 ![](images/1.png)
-![](images/2.png)
+![](images/2.png)   
 
 - **I et ordnet tre har barna en ordning. Så vi kan snakke om høyre og venstre f.eks**Hvis vi har et tre og peker ut en rot så har vi ikke en rekkefølge.
 - I et posisjonstre har vi en ordning og hvert barn har en posisjon, barn kan dermed mangle. Går ann å bare ha en høyre og en venstre.
@@ -140,3 +140,4 @@ Man bare søker seg frem til første ledige plass hvor manoverholder det at man 
 
 
 
+![](images/9999.png)

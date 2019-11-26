@@ -1,0 +1,110 @@
+2019 aug
+
+oppgave 1.
+partition
+
+oppgave2
+extract-min(Q)
+
+oppgave 3
+dij(k) = min(dij(k-1),dik(k-1)+dkj(k-1))
+
+oppgave 4
+i = length downto 1
+man må passe på at vi teller ned fra toppen til bunnen for at den skal være stabil
+
+counting sort teller hvilke indeks tallverdiene skal ha. Så hvis vi har |2| av n. må vi passe på at den første vi finner av n skal på laveste indeks. counting sort holder øverste indeks til tallverdi og dermed må vi først putte den siste n vi har funnet på øverste indeks. deretter vil den neste n komme på indeks(n)-1.
+
+
+oppgave 5.
+bisect deler opp lista på midten. Sjekker om midterste element er lik. Deretter sjekker om elementet er større. Hvis elementet er større traverserer vi rekursivt videre til høyre, ellers til venstre.
+Kjøretid på thetha(lgn) 
+
+oppgave 6.
+1,5
+2,4
+4,5
+1,3
+
+oppgave 7
+thetha(lgn)
+
+oppgave 8
+
+thetha(nlgn)
+forventet høyde til binærtsøketre er lgn
+hver innsetting tar lgn tid og deretter traversering som tar n tid.
+får nlgn
+
+oppgave 9
+velger ut grådig. Sorter etter avslutningstidspunkt
+velg deretter den kanalen med lavest avslutningsalder helt til det ikke er plass til mer.
+kjøretid på thetha(n) for utvalg og sortering varierer.
+
+oppgave 10
+formelle språk. har en spesifikk binærstreng som forventet output / input.
+uformelle språk og abstrakte beslutningsproblemer kan ta inn forskjellige binærestrenger er ikke spesifikk og blir dermed abstrakt. konkret har spesifikk binærstreng inn / ut.
+
+oppgave 11
+c(v,u) = 4
+c(u,v) = 7
+
+oppgave 12
+
+Kan ikke regne med at m er veldig stor fordi da vil vi trenge en veldig stor hashtabell som tar mye plass.
+
+2^k vokser veldig fort og alle k som er større enn lgm vil få samme hash, altså m.
+
+oppgave 13
+
+korteste vei med negativ sykel er meningsløst fordi det vi alltids finne en kortere vei ved å følge den negative sykelen på nytt.
+
+korteste vei uten negativ sykel
+kan løses i polynomisk tid.
+
+korteste enkle vei med negativ sykel.
+gir mening siden enkle vei ikke kan ha negativ sykel men er np-hardt.
+
+• Korteste enkle vei uten negative sykler: Samme problem som korteste
+vei uten negative sykler generelt, siden løsningen alltid vil være en
+enkel st
+images/2910.png
+
+simple path problem, aka hamilton path. Kan redusere fra hamilton sykel. hamilton path har vi path fra u til v uten å gå til samme node. hamilton sykel har vi fra u til u. hvis vi går fra u til u, kan vi bare droppe den siste edge. og har gått fra u til v uten å gå gjennom flere vertex. 
+
+
+
+oppgave 14.
+
+hvis vi har funnet verifikasjons for komplementet til ham-cycle vil det si at vi kan verifisere både ham-cycle og co-ham-cycle. 
+
+co-ham-cycle ligger i Co-np mens ham-cycle ligger i np
+det vil da si at vi kan redusere alle problemer i np først til ham-cycle så til co-ham-cycle og deretter verifisere komplementet deres. som vil si at vi kan redusere alle problemer i np til co-np og np=co-np
+
+oppgave 15.
+Du har en liste.
+fra 1 til n.
+hvis f.eks x1 = x2
+putter vi x2 på indeks 1 og x1 på indeks 2.
+deretter slår vi opp når vi går gjennom ulikhetene.
+
+hvis vi har x1!=x2 går vi på x1 og ser om det som ligger der k==x2. hvis ikke så returnerer vi true.
+ellers returnerer vi false.
+
+vil ha thetha(n) kjøretid.
+
+hvis vi kan behandle ligningen som statiske datasett.
+
+x1==x2.
+
+H[h(x1)] = K
+H[h(x2)] = K
+
+setter et tilfeldig nytt tall inn så sjekker vi om de har samme tall senere.
+
+oppgave 16.
+
+kjøretiden blir O(m*n)
+
+lcs bare istedenfor xai == ybi har vi xai<ybi
+

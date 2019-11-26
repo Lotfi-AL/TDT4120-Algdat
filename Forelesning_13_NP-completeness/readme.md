@@ -1,12 +1,12 @@
 ### Forelesning 13 - video 25,26
 
--   [ ] Video 25
--   [ ] Video 26
+-   [x] Video 23
+-   [x] Video 24
 
 ### _Forståelse nivå L-Lav M- Medium H- Høy_
 
-### _Første gang jeg skrev det --> **.11**_
-### _Sist gang jeg leste på det --> **.11**_
+### _Første gang jeg skrev det --> **22.11**_
+### _Sist gang jeg leste på det --> **22.11**_
 
 # **NP-kompletthet**
 
@@ -25,17 +25,17 @@ Se også appendiks D i dette heftet.
 
 
 # **Læringsmål:**
-- [ ] [M1] Forstå sammenhengen mellom optimerings- og beslutnings-problemer
+- [x] [M1] Forstå sammenhengen mellom optimerings- og beslutnings-problemer
 - [ ] [M2] Forstå koding (encoding) av en instans
 - [ ] [M3] Forstå hvorfor løsningen vår på 0 -1-ryggsekkproblemet ikke er polynomisk
-- [ ] [M4] Forstå forskjellen på konkrete og abstrakte problemer
+- [x] [M4] Forstå forskjellen på konkrete og abstrakte problemer
  - [ ] [M5] Forstå representasjonen av beslutningsproblemer som formelle språk
-- [ ] [M6] Forstå definisjonen av klassene P, NP og co-NP
+- [x] [M6] Forstå definisjonen av klassene P, NP og co-NP
 - [ ] [M7] Forstå redusibilitets-relasjonen 6P
 - [ ] ! [M8] Forstå definisjonen av NP-hardhet og NP-kompletthet
-- [ ] [M9] Forstå den konvensjonelle hypotesen om forholdet mellom P, NP og NPC
+- [x] [M9] Forstå den konvensjonelle hypotesen om forholdet mellom P, NP og NPC
 - [ ] ! [M10] Forstå hvordan NP-kompletthet kan bevises ved én reduksjon
-- [ ] ! [M11] Kjenne de NP-komplette problemene CIRCUIT-SAT, SAT, 3-CNF-SAT,
+- [x] ! [M11] Kjenne de NP-komplette problemene CIRCUIT-SAT, SAT, 3-CNF-SAT,
 CLIQUE, VERTEX-COVER, HAM-CYCLE, TSP og SUBSET-SUM
 - [ ] [M12] Forstå at 0 -1-ryggsekkproblemet er NP-hardt
 - [ ] [M13] Forstå at lengste enkle-vei-problemet er NP-hardt

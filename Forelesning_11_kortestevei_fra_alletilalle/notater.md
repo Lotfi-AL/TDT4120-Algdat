@@ -57,13 +57,12 @@ Vel det vanskelige er at lgc så jeg aldri lmao. Mattet shittet her hadde jeg ik
 ![](images/18.png)
 
 ![](images/19.png)
-
-
+![](images/12020.png)
 
 
 
 # Transitiv lukking
-Hvis det finnes en sti fra u til v vil vi legge inn en kant fra u til v. så den går direkte. den grafen vi endre opp med viser om det finnes stier i den opprinnelige grafen. Vi vil ha en ny graf med samme node mengde, men en ny kant mengde hvor hvis det finnes en sti fra i til j i den opprinnelige grafen skal vi legge til en kant i den nye grafen.
+Hvis det finnes en sti fra u til v vil vi legge inn en kant fra u til v. så den går direkte. den grafen vi endre opp med viser   om det finnes stier i den opprinnelige grafen. Vi vil ha en ny graf med samme node mengde, men en ny kant mengde hvor hvis det finnes en sti fra i til j i den opprinnelige grafen skal vi legge til en kant i den nye grafen.
 
 
 ![](images/20.png)

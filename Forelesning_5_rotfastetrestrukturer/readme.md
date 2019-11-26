@@ -24,19 +24,19 @@ for alle deltrær! Hauger er enklere: Alt er mindre enn rota. Det begrenser funk
 
 # **Læringsmål:**
 
-- [x] Forstå hvordan heaps fungerer, og hvordan de kan brukes som prioritetskøer
+- [ ] ! E1 Forstå hvordan heaps fungerer, og hvordan de kan brukes som prioritetskøer
 (Parent, Left, Right, Max-Heapify, Build-Max-Heap, Heapsort, Max-Heap-Insert,
 Heap-Extract-Max, Heap-Increase-Key, Heap-Maximum. Også tilsvarende for minheaps, f.eks., Build-Min-Heap og Heap-Extract-Min.)
 
-- [x] Forstå Heapsort
+- [ ] E2 Forstå Heapsort
   
-- [x] Forstå hvordan rotfaste trær kan implementeres
+- [ ] E3 Forstå hvordan rotfaste trær kan implementeres
   
-- [x] Forstå hvordan binære søketrær fungerer
+- [ ] ! E4 Forstå hvordan binære søketrær fungerer
 (Inorder-Tree-Walk, Tree-Search, Iterative-Tree-Search, Tree-Minimum, TreeMaximum, Tree-Successor, Tree-Predecessor, Tree-Insert, Transplant, Tree-Delete)
 
-- [x] Vite at forventet høyde for et tilfeldig binært søketre er Θ(lg n)
+- [x] E5 Vite at forventet høyde for et tilfeldig binært søketre er Θ(lg n)
   
-- [x] Vite at det finnes søketrær med garantert høyde på Θ(lg n)
+- [x] E6 Vite at det finnes søketrær med garantert høyde på Θ(lg n)
 Merk: Det kreves ikke grundig forståelse av Transplant og Tree-Delete.
 
