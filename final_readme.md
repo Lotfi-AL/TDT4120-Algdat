@@ -27,16 +27,16 @@ Vi trenger bare se på siste trinn , og kan anta at resten er på plass.
 # **Læringsmål:**
 
 - [x] A1 Forstå bokas pseudokode -konvensjoner
-- [ ] Kjenne egenskapene til random-access machine -modellen (RAM)
-- [ ] Kunne definere problem , instans og problemstørrelse
+- [x] Kjenne egenskapene til random-access machine -modellen (RAM)
+- [x] Kunne definere problem , instans og problemstørrelse
 
-- [ ] ! Kunne definere _asymptotisk notasjon_ ,O,Ω,Θ, _o_ og _ω_.
+- [x] ! Kunne definere _asymptotisk notasjon_ ,O,Ω,Θ, _o_ og _ω_.
 
-- [ ] ! Kunne definere _best-case_ , _average-case_ og _worst-case_
+- [x] ! Kunne definere _best-case_ , _average-case_ og _worst-case_
 
-- [ ] ! Forstå _løkkeinvarianter_ og _induksjon_
+- [x] ! Forstå _løkkeinvarianter_ og _induksjon_
 
-- [ ] ! Forstå _rekursiv dekomponering_ og _induksjon over delproblemer_
+- [x] ! Forstå _rekursiv dekomponering_ og _induksjon over delproblemer_
 
 
 - [x] Forstå Insertion-Sort
@@ -80,19 +80,19 @@ i praksis, og hva vi vinner på å bruke dem i algoritmene våre.
 )
 
   
-- [ ] Forstå hvordan pekere og objekter kan implementeres
+- [x] Forstå hvordan pekere og objekter kan implementeres
   
-- [ ]  ! Forstå hvordan direkte adressering og hashtabeller fungerer
+- [x]  ! Forstå hvordan direkte adressering og hashtabeller fungerer
 (Hash-Insert, Hash-Search)
 
 - [x]  Forstå konfliktløsing ved kjeding (chaining)
 (Chained-Hash-Insert, Chained-Hash-Search, Chained-Hash-Delete)
   
-- [ ]  Kjenne til grunnleggende hashfunksjoner
+- [x]  Kjenne til grunnleggende hashfunksjoner
 
-- [ ]   Vite at man for statiske datasett kan ha worst-case O(1) for søk
+- [x]   Vite at man for statiske datasett kan ha worst-case O(1) for søk
   
-- [ ]    Kunne definere amortisert analyse
+- [x]    Kunne definere amortisert analyse
   
 - [x]    Forstå hvordan dynamiske tabeller fungerer
 (Table-Insert)
@@ -124,12 +124,12 @@ løs problemet rekursivt for disse, og kombinér løsningene.
 
 # **Læringsmål:**
 
-- [ ] Forstå designmetoden divide-and-conquer (splitt og hersk)
-- [ ]  Forstå maximum-subarray-problemet med løsninger
+- [x] Forstå designmetoden divide-and-conquer (splitt og hersk)
+- [x]  Forstå maximum-subarray-problemet med løsninger
 - [x]  Forstå Bisect og Bisect0 (se appendiks C i dette heftet)
 - [x]  Forstå Merge-Sort
 - [x]   Forstå Quicksort og Randomized-Quicksort
-- [ ]    ! Kunne løse rekurrenser med substitusjon, rekursjonstrær og masterteoremet
+- [x]    ! Kunne løse rekurrenser med substitusjon, rekursjonstrær og masterteoremet
 - [x]    ! Kunne løse rekurrenser med iterasjonsmetoden (se appendiks B i dette heftet)
 - [x]     Forstå hvordan variabelskifte fungerer
 # **Rangering i linærtid**
@@ -162,8 +162,8 @@ om elementene eller bare sorterer noen av dem så kan vi gjøre det bedre.
 # **Læringsmål:**
 - [x] ! [D1] Forstå hvorfor sammenligningsbasert sortering har en worst-case på Ω(n lg n
 - [x] [D2] Vite hva en stabil sorteringsalgoritme er
-- [ ]  Forstå Counting-Sort, og hvorfor den er stabil
-- [ ] Forstå Radix-Sort, og hvorfor den trenger en stabil subrutine
+- [x]  Forstå Counting-Sort, og hvorfor den er stabil
+- [x] Forstå Radix-Sort, og hvorfor den trenger en stabil subrutine
 - [x] Forstå Bucket-Sort
 - [ ] Forstå Randomized-Select 
 - [x] [D7] Kjenne til Select
@@ -200,15 +200,15 @@ for alle deltrær! Hauger er enklere: Alt er mindre enn rota. Det begrenser funk
 
 # **Læringsmål:**
 
-- [ ] ! E1 Forstå hvordan heaps fungerer, og hvordan de kan brukes som prioritetskøer
+- [x] ! E1 Forstå hvordan heaps fungerer, og hvordan de kan brukes som prioritetskøer
 (Parent, Left, Right, Max-Heapify, Build-Max-Heap, Heapsort, Max-Heap-Insert,
 Heap-Extract-Max, Heap-Increase-Key, Heap-Maximum. Også tilsvarende for minheaps, f.eks., Build-Min-Heap og Heap-Extract-Min.)
 
-- [ ] E2 Forstå Heapsort
+- [x] E2 Forstå Heapsort
   
-- [ ] E3 Forstå hvordan rotfaste trær kan implementeres
+- [x] E3 Forstå hvordan rotfaste trær kan implementeres
   
-- [ ] ! E4 Forstå hvordan binære søketrær fungerer
+- [x] ! E4 Forstå hvordan binære søketrær fungerer
 (Inorder-Tree-Walk, Tree-Search, Iterative-Tree-Search, Tree-Minimum, TreeMaximum, Tree-Successor, Tree-Predecessor, Tree-Insert, Transplant, Tree-Delete)
 
 - [x] E5 Vite at forventet høyde for et tilfeldig binært søketre er Θ(lg n)
@@ -245,19 +245,19 @@ finner og lagrer del-løsninger i en rekkefølge som stemmer med avhengighetene.
 
 # **Læringsmål:**
 
-- [ ] !Forstå ideen om en _delproblemgraf_
+- [x] !Forstå ideen om en _delproblemgraf_
 
-- [ ] !Forstå designmetoden _dynamisk programmering_
+- [x] !Forstå designmetoden _dynamisk programmering_
 
 - [ ] !Forstå løsning ved _memoisering_ ( _top-down_ )
 
 
-- [ ] Forstå løsning ved iterasjon ( bottom-up )
-- [ ] Forstå hvordan man rekonstruerer en løsning fra lagrede beslutninger
+- [x] Forstå løsning ved iterasjon ( bottom-up )
+- [x] Forstå hvordan man rekonstruerer en løsning fra lagrede beslutninger
 - [x] Forstå hva optimal delstruktur er
 - [x] Forstå hva overlappende delproblemer er
-- [ ] Forstå eksemplene stavkutting og LCS
-- [ ] Forstå løsningen på 0-1-ryggsekkproblemet (se appendiks D i dette heftet)
+- [x] Forstå eksemplene stavkutting og LCS
+- [x] Forstå løsningen på 0-1-ryggsekkproblemet (se appendiks D i dette heftet)
 (Knapsack,Knapsack′)
 
 # **Grådige algoritmer**
@@ -277,12 +277,12 @@ algoritmer er ofte enkle; utfordringen ligger i å finne ut om de gir rett svar.
 
 # **Læringsmål:**
 
-- [ ] !Forstå designmetoden _grådighet_
+- [x] !Forstå designmetoden _grådighet_
 
-- [ ] !Forstå _grådighetsegenskapen_ ( _the greedy-choice property_ )
+- [x] !Forstå _grådighetsegenskapen_ ( _the greedy-choice property_ )
 
 
-- [ ] Forstå eksemplene aktivitet-utvelgelse og det fraksjonelle ryggsekkproblemet
+- [x] Forstå eksemplene aktivitet-utvelgelse og det fraksjonelle ryggsekkproblemet
 - [x] Forstå Huffmanog Huffman-koder
 
 
@@ -307,22 +307,22 @@ algoritmer er ofte enkle; utfordringen ligger i å finne ut om de gir rett svar.
 
 # **Læringsmål:**
 
-- [ ] Forstå hvordan grafer kan implementeres
+- [x] Forstå hvordan grafer kan implementeres
 
-- [ ] Forstå BFS, også for å finne korteste vei uten vekter
+- [x] Forstå BFS, også for å finne korteste vei uten vekter
 
-- [ ] Forstå DFS og parentesteoremet
+- [x] Forstå DFS og parentesteoremet
 
-- [ ] Forstå hvordan DFS klassifiserer kanter
+- [x] Forstå hvordan DFS klassifiserer kanter
 
-- [ ] Forstå Topological-Sort
+- [x] Forstå Topological-Sort
 
-- [ ] Forstå hvordan DFS kan implementeres med
+- [x] Forstå hvordan DFS kan implementeres med
 en stakk
 
-- [ ] Forstå hva traverseringstrær (som bredde-først- og dybde-først-trær) er
+- [x] Forstå hva traverseringstrær (som bredde-først- og dybde-først-trær) er
 
-- [ ] ! Forstå traversering med vilkårlig prioritetskø 
+- [x] ! Forstå traversering med vilkårlig prioritetskø 
 
 ### Forelesning 9 -litt av video 17,video 18
 
@@ -348,7 +348,7 @@ Erke-eksempel på grådighet: Velg én og én kant, alltid den billigste lovlige
 
 # **Læringsmål:**
 
--   [ ] Forstå skog -implementasjonen av disjunkte mengder
+-   [x] Forstå skog -implementasjonen av disjunkte mengder
         (Connected-Components,Same-Component,Make-Set,Union,Link,Find-Set)
 
 -   [x] Vite hva spenntrær og minimale spenntrær er
@@ -389,18 +389,18 @@ og (3) uten sykler. Og vi bruker samme prinsipp for alle tre!
 - [x] Forstå strukturen til korteste-vei -problemet
 - [x] Forstå at negative sykler gir mening for korteste enkle vei ( simple path )
 - [x] Forstå at korteste enkle vei kan løses vha. lengste enkle vei og omvendt
-- [ ] Forstå hvordan man kan representere et korteste-vei-tre
+- [x] Forstå hvordan man kan representere et korteste-vei-tre
 
-- [ ] ! Forstå _kant-slakking_ ( _edge relaxation_ ) og Relax ! 
+- [x] ! Forstå _kant-slakking_ ( _edge relaxation_ ) og Relax ! 
 
-- [ ] Forstå ulike egenskaper ved korteste veier og slakking
+- [x] Forstå ulike egenskaper ved korteste veier og slakking
 ( Triangle inequality , upper-bound property , no-path property , convergence property , path-
 relaxation property , predecessor-subgraph property )
-- [ ] Forstå Bellman-Ford
+- [x] Forstå Bellman-Ford
 - [x] Forstå DAG-Shortest-Path
 
-- [ ] ! Forstå kobling mellom DAG-Shortest-Path og dynamiskprogrammering !
-- [ ] Forstå Dijkstra
+- [x] ! Forstå kobling mellom DAG-Shortest-Path og dynamiskprogrammering !
+- [x] Forstå Dijkstra
 
 
 # **Korteste vei fra alle til alle**
@@ -431,14 +431,14 @@ programmering med dekomponeringen «Skal vi innom k eller ikke?»
 
 # **Læringsmål:**
 
-- [ ] Forstå _forgjengerstrukturen_ for _alle-til-alle_ -varianten av korteste vei-problemet
+- [x] Forstå _forgjengerstrukturen_ for _alle-til-alle_ -varianten av korteste vei-problemet
 (Print-All-Pairs-Shortest-Path) 
 
-- [ ] Forstå Floyd-Warshall
+- [x] Forstå Floyd-Warshall
 
 - [x] Forstå Transitive-Closure
 
-- [ ] Forstå Johnson
+- [x] Forstå Johnson
 
 *Merk: Noe stoff fra forelesning 12 vil kanskje dekkes her.*
 
@@ -474,11 +474,11 @@ duale av hverandre, noe som hjelper oss med å finne en løsning.
 - [x] ! Kunne definere restnettet til et flytnett med en gitt flyt
 - [x] Forstå hvordan man kan oppheve (cancel) flyt
 - [x] Forstå hva en forøkende sti (augmenting path) er
-- [ ] Forstå hva snitt, snitt-kapasitet og minimalt snitt er
-- [ ] !Forstå maks-flyt/min-snitt-teoremet
-- [ ] Forstå Ford-Fulkerson-Method og Ford-Fulkerson
+- [x] Forstå hva snitt, snitt-kapasitet og minimalt snitt er
+- [x] !Forstå maks-flyt/min-snitt-teoremet
+- [x] Forstå Ford-Fulkerson-Method og Ford-Fulkersons
 - [x] Vite at Ford-Fulkerson med BFS kalles Edmonds-Karp-algoritmen
-- [ ]  Forstå hvordan maks-flyt kan finne en maksimum bipartitt matching
+- [x]  Forstå hvordan maks-flyt kan finne en maksimum bipartitt matching
 - [x]  ! Forstå heltallsteoremet (integrality theorem)
 Merk: Noe av stoffet vil kanskje dekkes i forelesning 11.
 
